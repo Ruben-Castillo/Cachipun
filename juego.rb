@@ -1,4 +1,4 @@
-player=ARGV[0]
+player=ARGV[0].downcase
 plays=['piedra','papel','tijera']
 playerwin=[-2,1]
 unless plays.include?(player)
